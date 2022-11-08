@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT * FROM tbl1 WHERE SUBSTRING(c16, 1, 1) = K0;
+SELECT *, c16 BETWEEN K0 AND K0 FROM tbl1;
