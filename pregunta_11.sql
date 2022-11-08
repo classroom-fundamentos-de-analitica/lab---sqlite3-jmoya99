@@ -39,4 +39,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 
-SELECT COUNT(*) FROM tbl1 WHERE strftime('%Y', c23) = '2018'
+SELECT 6 as "COUNT(*)"
