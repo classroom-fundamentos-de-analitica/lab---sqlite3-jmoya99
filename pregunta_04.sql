@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT *, c16 BETWEEN K0 AND K0 FROM tbl1;
+SELECT K0, c16 FROM tbl1 WHERE c16 in ['EGFD', 'BDEE', 'CCCE'];
