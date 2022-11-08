@@ -37,7 +37,7 @@
 --  0  E  EGFD
 --  1  B  BDEE
 --  2  C  CCCE
---
+--s
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT K0, c16 FROM tbl1 WHERE SUBSTRING(c16, 1, 1) = K0;
+SELECT K0, c16, c16 BETWEEN K0 AND K0 FROM tbl1;
