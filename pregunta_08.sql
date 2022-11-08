@@ -41,8 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT
-  EXTRACT(year FROM c23) AS c23,
-  AVG(c21)
-FROM tbl2
-GROUP BY EXTRACT(year FROM c23) AS c23;
+SELECT strftime('%Y', c23), avg(c21) FROM tbl2 GROUP BY strftime('%Y', c23);
