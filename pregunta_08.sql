@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT c23, avg(c21) FROM tbl2 GROUP BY c23
+SELECT avg(c21) FROM tbl2 GROUP BY c23
